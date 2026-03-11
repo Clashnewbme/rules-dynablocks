@@ -1,1 +1,75 @@
+/* Page background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
 
+/* Main page container */
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background: white;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.header p {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Divider line */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 25px 0;
+}
+
+/* Blog post */
+.post {
+    padding: 10px 5px;
+}
+
+/* Blog title */
+.post h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* Date */
+.date {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Section titles */
+.post h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Post text */
+.post p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Bold titles */
+.post strong {
+    color: #222;
+}
+
+/* Small hover effect */
+.post strong:hover {
+    color: #0073e6;
+    cursor: pointer;
+}
